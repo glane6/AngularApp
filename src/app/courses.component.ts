@@ -20,7 +20,7 @@ export class CoursesComponent {
     imageUrl = '';
     colSpan = 2;
 
-    constructor(service: CoursesService){
+    constructor(service: CoursesService) {
       // let service = new CoursesService();
       this.courses = service.getCourses();
     }
